@@ -1,6 +1,5 @@
 import re
 import math
-fin = open('in.rml')
 print """
 ###########################################
 *** RML scaling script ***
@@ -24,6 +23,7 @@ input = raw_input("RML file name to convert?: ")
 output = raw_input("Output file name?: ") 
 if input == "":
     print "No input file specified. Exit."	
+fin = open(input)
 if output == "":
     fout = open('out.rml','w') 
 else:
