@@ -11,7 +11,7 @@ for the sake of MDX-40A users and so on...
 
 """
 #scale = 2.3
-scale = raw_input("Input the scale you want (ex.2.3): ")
+scale = raw_input("Input the scale you want (ex.2.3, 2.48): ")
 try:
     scale = float(scale)
 except:
