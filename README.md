@@ -10,6 +10,8 @@ Those Roland machines can be run by CUPS driver and lpr command. Use any Unix sy
 
 (for example, type following in your command line : $ lpr -P Roland_MDX-40A mill.rml)
 
+Questions are most welcomed.
+
 # install
 $ make install
 
