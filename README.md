@@ -6,6 +6,9 @@ This is a script to magnify/reduce .rml dimension to arbitraty scale.
 
 It was developed for users of Fabmodules and MDX-40A, MDX-540, iModela, and any Roland machines which doesn't support serial USB.
 
+Those Roland machines can be run by CUPS driver and lpr command. Use any Unix system (OSX, Linux).
+
+(for example, type following in your command line : $ lpr -P Roland_MDX-40A mill.rml)
 
 # install
 $ make install
