@@ -1,4 +1,4 @@
-rml_scaler
+RML scaling script
 ==========
 2014 May, Shohei Aoki
 
